@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:battery_example/controller/device_controller.dart';
-import 'package:battery_example/main.dart';
-import 'package:battery_example/model/device.dart';
 import 'package:flutter/material.dart';
 import 'package:battery/battery.dart';
 
+import '../controller/device_controller.dart';
+import '../main.dart';
+import '../model/device.dart';
 import '../model/device_status_model.dart';
 
 class BatteryPage extends StatefulWidget {
